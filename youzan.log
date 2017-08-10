@@ -1,0 +1,28 @@
+2017-08-08 14:01:58.596  INFO 14276 --- [main] com.jovision.soovvi.YouzanApplication    : Starting YouzanApplication on PC-20150205YAGL with PID 14276 (E:\IdeaProjects\soovviProject\youzan\target\classes started by Administrator in E:\IdeaProjects\soovviProject)
+2017-08-08 14:01:58.599  INFO 14276 --- [main] com.jovision.soovvi.YouzanApplication    : No active profile set, falling back to default profiles: default
+2017-08-08 14:01:58.779  INFO 14276 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31206beb: startup date [Tue Aug 08 14:01:58 CST 2017]; root of context hierarchy
+2017-08-08 14:02:02.580  INFO 14276 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8058 (http)
+2017-08-08 14:02:02.663  INFO 14276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2017-08-08 14:02:02.682  INFO 14276 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.16
+2017-08-08 14:02:02.968  INFO 14276 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2017-08-08 14:02:02.969  INFO 14276 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4192 ms
+2017-08-08 14:02:03.130  INFO 14276 --- [localhost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2017-08-08 14:02:03.152  INFO 14276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2017-08-08 14:02:03.152  INFO 14276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2017-08-08 14:02:03.152  INFO 14276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2017-08-08 14:02:03.153  INFO 14276 --- [localhost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2017-08-08 14:02:03.571  INFO 14276 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@31206beb: startup date [Tue Aug 08 14:01:58 CST 2017]; root of context hierarchy
+2017-08-08 14:02:03.658  INFO 14276 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/youzan/login],methods=[GET]}" onto public java.lang.String com.jovision.soovvi.controller.YouZanController.login(java.lang.String,java.lang.String,java.lang.String)
+2017-08-08 14:02:03.659  INFO 14276 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/youzan/initToken],methods=[GET]}" onto public java.lang.String com.jovision.soovvi.controller.YouZanController.initToken(java.lang.String,java.lang.String)
+2017-08-08 14:02:03.659  INFO 14276 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/youzan/logout],methods=[GET]}" onto public java.lang.String com.jovision.soovvi.controller.YouZanController.logout(java.lang.String,java.lang.String,java.lang.String)
+2017-08-08 14:02:03.661  INFO 14276 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2017-08-08 14:02:03.662  INFO 14276 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2017-08-08 14:02:03.695  INFO 14276 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-08 14:02:03.695  INFO 14276 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-08 14:02:03.731  INFO 14276 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2017-08-08 14:02:03.933  INFO 14276 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2017-08-08 14:02:04.086  INFO 14276 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 8058 (http)
+2017-08-08 14:02:04.100  INFO 14276 --- [main] com.jovision.soovvi.YouzanApplication    : Started YouzanApplication in 6.445 seconds (JVM running for 9.05)
+2017-08-08 14:02:20.143  INFO 14276 --- [http-nio-8058-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2017-08-08 14:02:20.143  INFO 14276 --- [http-nio-8058-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2017-08-08 14:02:20.162  INFO 14276 --- [http-nio-8058-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
